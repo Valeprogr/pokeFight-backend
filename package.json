@@ -1,0 +1,27 @@
+{
+  "name": "pokefightvale-backend",
+  "version": "1.0.0",
+  "description": "school exercise",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeprogr/pokeFight-backend.git"
+  },
+  "author": "valentina vittoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valeprogr/pokeFight-backend/issues"
+  },
+  "homepage": "https://github.com/Valeprogr/pokeFight-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
